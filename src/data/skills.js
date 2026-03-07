@@ -1,0 +1,17 @@
+export const skills = [
+  { id: 1, name: "HTML", category: "frontend" },
+  { id: 2, name: "CSS", category: "frontend" },
+  { id: 3, name: "JavaScript", category: "frontend" },
+  { id: 4, name: "React", category: "frontend" },
+  { id: 5, name: "Next.js", category: "frontend" },
+  { id: 6, name: "Tailwind CSS", category: "frontend" },
+  { id: 7, name: "Bootstrap", category: "frontend" },
+  { id: 8, name: "Node.js", category: "backend" },
+  { id: 9, name: "Express", category: "backend" },
+  { id: 10, name: "MongoDB", category: "backend" },
+  { id: 11, name: "REST APIs", category: "backend" },
+  { id: 12, name: "Git", category: "tools" },
+  { id: 13, name: "GitHub", category: "tools" },
+  { id: 14, name: "VS Code", category: "tools" },
+  { id: 15, name: "AI Tools", category: "tools" },
+];
