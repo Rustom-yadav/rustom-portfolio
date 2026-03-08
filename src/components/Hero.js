@@ -12,8 +12,6 @@ export default function Hero() {
       className="relative isolate bg-gradient-to-br from-[#eef2ff] via-[#e0e7ff] to-[#c7d2fe] px-6 py-24 text-center dark:from-[#0f0f14] dark:via-[#1a1a2e] dark:to-[#16213e] sm:py-32"
       aria-labelledby="hero-heading"
     >
-
-
       <div className="relative mx-auto max-w-2xl">
         <div className="mb-8 flex justify-center">
           <div className="relative">
@@ -66,12 +64,13 @@ export default function Hero() {
           >
             View Projects
           </Link>
-          <Link
-            href="/contact"
-            className="inline-flex items-center gap-2 rounded-lg border-2 border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-700 transition hover:-translate-y-0.5 hover:border-[#6366f1] hover:text-[#6366f1] dark:border-[#27272a] dark:bg-[#1a1a24] dark:text-[#e4e4e7]"
+          <a
+            href="/Vijay_Yadav_MERN_FullStack_Resume.pdf"
+            download
+            className="inline-flex items-center gap-2 rounded-lg border-2 border-transparent bg-gradient-to-r from-blue-600 to-cyan-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_0_20px_rgba(37,99,235,0.45)] transition hover:-translate-y-0.5 hover:shadow-[0_0_28px_rgba(37,99,235,0.55)] dark:from-blue-500 dark:to-cyan-400 dark:shadow-[0_0_20px_rgba(59,130,246,0.4)] dark:hover:shadow-[0_0_28px_rgba(34,211,238,0.5)]"
           >
-            Get in Touch
-          </Link>
+            Download Resume
+          </a>
         </div>
       </div>
     </section>
