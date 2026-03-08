@@ -4,39 +4,38 @@ import { skills } from "@/data/skills";
 const categoryLabels = {
   frontend: "Frontend",
   backend: "Backend",
-  tools: "Tools & Workflow",
+  tools: "Tools",
 };
 
-const categoryIcons = {
-  frontend: "🎨",
-  backend: "⚙️",
-  tools: "🛠️",
+const categoryColors = {
+  frontend: "text-[#22d3ee]",
+  backend: "text-[#34d399]",
+  tools: "text-[#a78bfa]",
 };
 
 export default function Skills() {
-  const byCategory = skills.reduce((acc, skill) => {
-    if (!acc[skill.category]) acc[skill.category] = [];
-    acc[skill.category].push(skill);
-    return acc;
-  }, {});
+  const byCategory = {};
+
+  for (const skill of skills) {
+    if (!byCategory[skill.category]) {
+      byCategory[skill.category] = [];
+    }
+
+    byCategory[skill.category].push(skill)
+  }
 
   return (
-    <div className="min-h-screen bg-slate-50">
-      <main className="mx-auto max-w-5xl px-5 py-20 sm:px-8">
-        <h1 className="mb-3 text-4xl font-extrabold tracking-tight text-slate-900">
-          My <span className="text-blue-600">Skills</span>
-        </h1>
-        <p className="mb-10 max-w-2xl text-base text-slate-600">
-          Technologies and tools I use to build full-stack applications.
-        </p>
+    <div className="min-h-screen bg-white dark:bg-[#0f0f14]">
+      <main className="mx-auto max-w-[1200px] px-6 py-20">
+        <h2 className="mb-2 text-3xl font-bold text-slate-900 dark:text-[#e4e4e7]">Skills</h2>
+        <p className="mb-10 text-sm text-slate-500 dark:text-[#a1a1aa]">Technologies and tools I work with</p>
         <div className="space-y-12">
           {Object.entries(byCategory).map(([category, items]) => (
             <section key={category}>
-              <h2 className="mb-5 flex items-center gap-2 text-lg font-bold text-slate-800">
-                <span>{categoryIcons[category]}</span>
+              <h3 className={`mb-5 text-lg font-semibold ${categoryColors[category] || "text-[#e4e4e7]"}`}>
                 {categoryLabels[category] || category}
-              </h2>
-              <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+              </h3>
+              <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
                 {items.map((skill) => (
                   <SkillCard key={skill.id} name={skill.name} category={skill.category} />
                 ))}

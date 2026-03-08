@@ -2,15 +2,14 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-slate-50">
-      <main className="mx-auto max-w-3xl px-5 py-20 sm:px-8">
-        <h1 className="mb-8 text-4xl font-extrabold tracking-tight text-slate-900">
-          About <span className="text-blue-600">Me</span>
-        </h1>
-        <div className="space-y-5 text-base leading-relaxed text-slate-700">
+    <div className="min-h-screen bg-white dark:bg-[#0f0f14]">
+      <main className="mx-auto max-w-3xl px-6 py-20">
+        <h2 className="mb-2 text-3xl font-bold text-slate-900 dark:text-[#e4e4e7]">About Me</h2>
+        <p className="mb-8 text-sm text-slate-500 dark:text-[#a1a1aa]">Get to know the person behind the code</p>
+        <div className="space-y-5 text-base leading-[1.8] text-slate-600 dark:text-[#a1a1aa]">
           <p>
-            I&apos;m <strong className="text-slate-900">Vijay Yadav</strong>, also known as{" "}
-            <strong className="text-blue-700">Rustom</strong>. I work as a full stack developer
+            I&apos;m <strong className="text-slate-900 dark:text-[#e4e4e7]">Vijay Yadav</strong>, also known as{" "}
+            <strong className="text-[#6366f1] dark:text-[#22d3ee]">Rustom</strong>. I work as a full stack developer
             specializing in the MERN stack (MongoDB, Express, React, Node.js).
           </p>
           <p>
@@ -23,10 +22,10 @@ export default function About() {
           </p>
         </div>
         <div className="mt-10 flex flex-wrap gap-4">
-          <Link href="/projects" className="rounded-full bg-blue-600 px-6 py-3 text-sm font-bold text-white transition hover:bg-blue-700">
+          <Link href="/projects" className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-[#6366f1] to-[#22d3ee] px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(99,102,241,0.25)]">
             View Projects
           </Link>
-          <Link href="/contact" className="rounded-full border-2 border-blue-600 px-6 py-3 text-sm font-bold text-blue-700 transition hover:bg-blue-50">
+          <Link href="/contact" className="inline-flex items-center gap-2 rounded-lg border-2 border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-700 transition hover:-translate-y-0.5 hover:border-[#6366f1] hover:text-[#6366f1] dark:border-[#27272a] dark:bg-[#1a1a24] dark:text-[#e4e4e7]">
             Get in Touch
           </Link>
         </div>

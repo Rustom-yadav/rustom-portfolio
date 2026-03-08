@@ -3,15 +3,11 @@ import { projects } from "@/data/projects";
 
 export default function Projects() {
   return (
-    <div className="min-h-screen bg-slate-50">
-      <main className="mx-auto max-w-5xl px-5 py-20 sm:px-8">
-        <h1 className="mb-3 text-4xl font-extrabold tracking-tight text-slate-900">
-          My <span className="text-blue-600">Projects</span>
-        </h1>
-        <p className="mb-10 max-w-2xl text-base text-slate-600">
-          Web applications and side projects built with the MERN stack and modern frontend tools.
-        </p>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="min-h-screen bg-slate-50 dark:bg-[#0f0f14]">
+      <main className="mx-auto max-w-[1200px] px-6 py-20">
+        <h2 className="mb-2 text-3xl font-bold text-slate-900 dark:text-[#e4e4e7]">Projects</h2>
+        <p className="mb-8 text-sm text-slate-500 dark:text-[#a1a1aa]">Web apps and side projects built with the MERN stack</p>
+        <div className="grid gap-6 sm:grid-cols-2">
           {projects.map((project) => (
             <ProjectCard
               key={project.id}
@@ -20,6 +16,8 @@ export default function Projects() {
               tech={project.tech}
               github={project.github}
               demo={project.demo}
+              image={project.image}
+              imageAlt={project.imageAlt}
             />
           ))}
         </div>

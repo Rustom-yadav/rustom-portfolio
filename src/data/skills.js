@@ -14,4 +14,7 @@ export const skills = [
   { id: 13, name: "GitHub", category: "tools" },
   { id: 14, name: "VS Code", category: "tools" },
   { id: 15, name: "AI Tools", category: "tools" },
+  { id: 16, name: "Cloudinary", category: "tools" },
+  { id: 17, name: "Render", category: "tools" },
+  { id: 18, name: "Vercel", category: "tools" },
 ];
