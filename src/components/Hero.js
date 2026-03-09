@@ -9,7 +9,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative isolate bg-gradient-to-br from-[#eef2ff] via-[#e0e7ff] to-[#c7d2fe] px-6 py-24 text-center dark:from-[#0f0f14] dark:via-[#1a1a2e] dark:to-[#16213e] sm:py-32"
+      className="relative isolate w-full max-w-full bg-gradient-to-br from-[#eef2ff] via-[#e0e7ff] to-[#c7d2fe] px-4 py-24 text-center dark:from-[#0f0f14] dark:via-[#1a1a2e] dark:to-[#16213e] sm:px-6 sm:py-32"
       aria-labelledby="hero-heading"
     >
       <div className="relative mx-auto max-w-2xl">

@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
             Skip to main content
           </a>
           <Navbar />
-          <div id="main">{children}</div>
+          <div id="main" className="min-w-0 w-full overflow-x-hidden">{children}</div>
           <Footer />
         </ThemeProvider>
       </body>
