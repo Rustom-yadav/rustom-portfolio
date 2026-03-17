@@ -1,8 +1,29 @@
 export const projects = [
   {
+    id: 6,
+    title: "Mentovara",
+    description:
+      "A modern, full-stack Learning Management System (LMS) built with Next.js and Node.js. Features secure authentication, smooth video streaming, and a highly optimized dark-mode UI designed for maximum student focus.",
+    tech: [
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "Tailwind CSS",
+      "JWT",
+      "Cloudinary",
+    ],
+    github: "https://github.com/Rustom-yadav/mentovara-edtech",
+    demo: "https://mentovara.vercel.app/",
+    image: "/projects-screenshots/mentovarahomepage.png",
+    imageAlt:
+      "Mentovara - A modern, full-stack Learning Management System (LMS)",
+  },
+  {
     id: 3,
     title: "My Video Plateform Backend project",
-    description: "Video platform backend project built with Node.js, Express, MongoDB, REST APIs, JWT, Cloudinary, Multer, BCrypt",
+    description:
+      "Video platform backend project built with Node.js, Express, MongoDB, REST APIs, JWT, Cloudinary, Multer, BCrypt",
     tech: ["Node.js", "Express", "MongoDB", "REST APIs", "Cloudinary"],
     github: "https://github.com/Rustom-yadav/rustom-backend-project",
     demo: "https://rustom-backend-project.onrender.com/",
@@ -13,7 +34,7 @@ export const projects = [
     id: 1,
     title: "My Next.js portfolio",
     description: "My portfolio website built with Next.js and Tailwind CSS",
-    tech: ["Next.js", "Tailwind CSS",],
+    tech: ["Next.js", "Tailwind CSS"],
     github: "https://github.com/Rustom-yadav/rustom-portfolio",
     demo: "#",
     image: "/projects-screenshots/PortfolioNext.js.png",
