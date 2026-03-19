@@ -15,7 +15,7 @@ export const projects = [
     ],
     github: "https://github.com/Rustom-yadav/mentovara-edtech",
     demo: "https://mentovara.vercel.app/",
-    image: "/projects-screenshots/mentovarahomepage.png",
+    image: "/projects-screenshots/Mentovara-light-mode.png.png",
     imageAlt:
       "Mentovara - A modern, full-stack Learning Management System (LMS)",
   },
