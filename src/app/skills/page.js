@@ -5,12 +5,18 @@ const categoryLabels = {
   frontend: "Frontend",
   backend: "Backend",
   tools: "Tools",
+  "programming-languages": "Programming Languages",
+  services: "Services",
+  ai: "AI & LLMs",
 };
 
 const categoryColors = {
   frontend: "text-[#22d3ee]",
   backend: "text-[#34d399]",
   tools: "text-[#a78bfa]",
+  "programming-languages": "text-[#fbbf24]",
+  services: "text-[#f472b6]",
+  ai: "text-[#fb923c]",
 };
 
 export default function Skills() {
