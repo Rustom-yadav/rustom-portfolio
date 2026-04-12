@@ -50,7 +50,7 @@ export default function Hero() {
             clean, scalable, and user-focused.
           </p>
           <p>
-            Certified by <span className="font-semibold text-[#6366f1]">FreeCodeCamp</span>, and always
+            Certified by <span className="font-semibold text-[#6366f1]">FreeCodeCamp, Udemy</span>, and always
             learning, building, and improving.
           </p>
         </div>
