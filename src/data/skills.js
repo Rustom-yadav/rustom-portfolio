@@ -27,6 +27,7 @@ export const skills = [
   { id: 19, name: "Cloudinary", category: "databases-services" },
   { id: 20, name: "Nodemailer", category: "databases-services" },
   { id: 21, name: "Razorpay", category: "databases-services" },
+  { id: 44, name: "Supabase", category: "databases-services" },
 
   // AI Integration
   { id: 22, name: "Ollama", category: "ai-integration" },
@@ -55,4 +56,9 @@ export const skills = [
   { id: 41, name: "Vercel", category: "devops-tools" },
   { id: 42, name: "Render", category: "devops-tools" },
   { id: 43, name: "Postman", category: "devops-tools" },
+
+  // OS
+  { id: 45, name: "Mac", category: "os" },
+  { id: 46, name: "Linux", category: "os" },
+  { id: 47, name: "Windows", category: "os" },
 ];

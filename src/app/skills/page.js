@@ -9,6 +9,7 @@ const categoryLabels = {
   "ai-integration": "AI Integration",
   concepts: "Concepts",
   "devops-tools": "DevOps & Tools",
+  os: "Operating Systems",
 };
 
 const categoryColors = {
@@ -19,6 +20,7 @@ const categoryColors = {
   "ai-integration": "text-[#fb923c]",
   concepts: "text-[#818cf8]",
   "devops-tools": "text-[#a78bfa]",
+  os: "text-[#9ca3af]",
 };
 
 export default function Skills() {

@@ -34,6 +34,11 @@ const categoryAccent = {
     glow: "hover:shadow-[0_8px_30px_rgba(129,140,248,0.1)] dark:hover:shadow-[0_8px_30px_rgba(129,140,248,0.15)]",
     tag: "text-[#4f46e5] dark:text-[#818cf8]",
   },
+  os: {
+    border: "border-[#9ca3af]/20 dark:border-[#9ca3af]/30",
+    glow: "hover:shadow-[0_8px_30px_rgba(156,163,175,0.1)] dark:hover:shadow-[0_8px_30px_rgba(156,163,175,0.15)]",
+    tag: "text-[#4b5563] dark:text-[#9ca3af]",
+  },
 };
 
 export default function SkillCard({ name, category }) {
