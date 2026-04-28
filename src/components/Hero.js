@@ -65,7 +65,7 @@ export default function Hero() {
             View Projects
           </Link>
           <a
-            href="/Vijay_Yadav_MERN_FullStack_Resume.pdf"
+            href="/rustom_resume_updated.pdf"
             download
             className="inline-flex items-center gap-2 rounded-lg border-2 border-transparent bg-gradient-to-r from-blue-600 to-cyan-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_0_20px_rgba(37,99,235,0.45)] transition hover:-translate-y-0.5 hover:shadow-[0_0_28px_rgba(37,99,235,0.55)] dark:from-blue-500 dark:to-cyan-400 dark:shadow-[0_0_20px_rgba(59,130,246,0.4)] dark:hover:shadow-[0_0_28px_rgba(34,211,238,0.5)]"
           >
