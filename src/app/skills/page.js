@@ -2,21 +2,23 @@ import SkillCard from "@/components/SkillCard";
 import { skills } from "@/data/skills";
 
 const categoryLabels = {
+  "programming-languages": "Languages",
   frontend: "Frontend",
   backend: "Backend",
-  tools: "Tools",
-  "programming-languages": "Programming Languages",
-  services: "Services",
-  ai: "AI & LLMs",
+  "databases-services": "Databases & Services",
+  "ai-integration": "AI Integration",
+  concepts: "Concepts",
+  "devops-tools": "DevOps & Tools",
 };
 
 const categoryColors = {
+  "programming-languages": "text-[#fbbf24]",
   frontend: "text-[#22d3ee]",
   backend: "text-[#34d399]",
-  tools: "text-[#a78bfa]",
-  "programming-languages": "text-[#fbbf24]",
-  services: "text-[#f472b6]",
-  ai: "text-[#fb923c]",
+  "databases-services": "text-[#f472b6]",
+  "ai-integration": "text-[#fb923c]",
+  concepts: "text-[#818cf8]",
+  "devops-tools": "text-[#a78bfa]",
 };
 
 export default function Skills() {

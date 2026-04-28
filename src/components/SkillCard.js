@@ -9,7 +9,7 @@ const categoryAccent = {
     glow: "hover:shadow-[0_8px_30px_rgba(52,211,153,0.1)] dark:hover:shadow-[0_8px_30px_rgba(52,211,153,0.15)]",
     tag: "text-[#059669] dark:text-[#34d399]",
   },
-  tools: {
+  "devops-tools": {
     border: "border-[#a78bfa]/20 dark:border-[#a78bfa]/30",
     glow: "hover:shadow-[0_8px_30px_rgba(167,139,250,0.1)] dark:hover:shadow-[0_8px_30px_rgba(167,139,250,0.15)]",
     tag: "text-[#7c3aed] dark:text-[#a78bfa]",
@@ -19,15 +19,20 @@ const categoryAccent = {
     glow: "hover:shadow-[0_8px_30px_rgba(251,191,36,0.1)] dark:hover:shadow-[0_8px_30px_rgba(251,191,36,0.15)]",
     tag: "text-[#d97706] dark:text-[#fbbf24]",
   },
-  services: {
+  "databases-services": {
     border: "border-[#f472b6]/20 dark:border-[#f472b6]/30",
     glow: "hover:shadow-[0_8px_30px_rgba(244,114,182,0.1)] dark:hover:shadow-[0_8px_30px_rgba(244,114,182,0.15)]",
     tag: "text-[#be123c] dark:text-[#f472b6]",
   },
-  ai: {
+  "ai-integration": {
     border: "border-[#fb923c]/20 dark:border-[#fb923c]/30",
     glow: "hover:shadow-[0_8px_30px_rgba(251,146,60,0.1)] dark:hover:shadow-[0_8px_30px_rgba(251,146,60,0.15)]",
     tag: "text-[#c2410c] dark:text-[#fb923c]",
+  },
+  concepts: {
+    border: "border-[#818cf8]/20 dark:border-[#818cf8]/30",
+    glow: "hover:shadow-[0_8px_30px_rgba(129,140,248,0.1)] dark:hover:shadow-[0_8px_30px_rgba(129,140,248,0.15)]",
+    tag: "text-[#4f46e5] dark:text-[#818cf8]",
   },
 };
 

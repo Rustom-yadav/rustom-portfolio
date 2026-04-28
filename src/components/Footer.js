@@ -1,6 +1,6 @@
 const socialLinks = [
   {
-    href: "https://www.linkedin.com/in/vijay-yadav-b31a7a300/",
+    href: "https://www.linkedin.com/in/rustom-yadav-b31a7a300/",
     label: "LinkedIn",
     icon: (
       <svg aria-hidden className="size-4" fill="currentColor" viewBox="0 0 24 24">

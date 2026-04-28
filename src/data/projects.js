@@ -15,6 +15,8 @@ export const projects = [
       "SMTP Email Verification",
       "Multer",
       "Cloudinary",
+      "Docker",
+      "GitHub Actions"
     ],
     github: "https://github.com/Rustom-yadav/mentovara-edtech",
     demo: "https://mentovara.vercel.app/",
