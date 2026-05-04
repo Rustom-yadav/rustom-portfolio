@@ -27,7 +27,10 @@ export default function Hero() {
                   priority
                 />
               ) : (
-                <span className="flex h-full w-full items-center justify-center bg-gradient-to-br from-[#6366f1] to-[#22d3ee] text-3xl font-bold text-white sm:text-4xl" aria-hidden>
+                <span
+                  className="flex h-full w-full items-center justify-center bg-gradient-to-br from-[#6366f1] to-[#22d3ee] text-3xl font-bold text-white sm:text-4xl"
+                  aria-hidden
+                >
                   VY
                 </span>
               )}
@@ -41,17 +44,23 @@ export default function Hero() {
           Vijay Yadav (Rustom)
         </h1>
         <p className="mb-6 text-lg font-semibold text-slate-700 dark:text-[#e4e4e7]">
-          Full Stack Developer <span className="text-slate-400 dark:text-[#a1a1aa]">|</span> MERN Stack
+          Full Stack Developer{" "}
+          <span className="text-slate-400 dark:text-[#a1a1aa]">|</span> MERN
+          Stack
         </p>
         <div className="mx-auto mb-8 max-w-xl space-y-4 text-base leading-relaxed text-slate-600 dark:text-[#a1a1aa]">
           <p>
-            I turn ideas into modern web applications using React, Next.js, Node.js, Express, and MongoDB.
-            With a strong foundation in JavaScript and responsive design and Backend development, I enjoy building products that are
-            clean, scalable, and user-focused.
+            I turn ideas into modern web applications using React, Next.js,
+            Node.js, Express, and MongoDB. With a strong foundation in
+            JavaScript and responsive design and Backend development, I enjoy
+            building products that are clean, scalable, and user-focused.
           </p>
           <p>
-            Certified by <span className="font-semibold text-[#6366f1]">FreeCodeCamp, Udemy</span>, and always
-            learning, building, and improving.
+            Certified by{" "}
+            <span className="font-semibold text-[#6366f1]">
+              FreeCodeCamp, Udemy
+            </span>
+            , and always learning, building, and improving.
           </p>
         </div>
         <p className="mb-8 text-sm text-slate-500 dark:text-[#a1a1aa]">
@@ -65,7 +74,7 @@ export default function Hero() {
             View Projects
           </Link>
           <a
-            href="/rustom_resume_updated.pdf"
+            href="/Rustom_Resume_Final_V4.pdf"
             download
             className="inline-flex items-center gap-2 rounded-lg border-2 border-transparent bg-gradient-to-r from-blue-600 to-cyan-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_0_20px_rgba(37,99,235,0.45)] transition hover:-translate-y-0.5 hover:shadow-[0_0_28px_rgba(37,99,235,0.55)] dark:from-blue-500 dark:to-cyan-400 dark:shadow-[0_0_20px_rgba(59,130,246,0.4)] dark:hover:shadow-[0_0_28px_rgba(34,211,238,0.5)]"
           >
