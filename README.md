@@ -3,7 +3,7 @@
 > **Live:** [🌐 View Live](https://rustom-portfolio.vercel.app) · 
 **Repo:** [📂 Source Code](https://github.com/Rustom-yadav/rustom-portfolio)
 
-Portfolio website of **Vijay Yadav (Rustom)** — Full Stack Developer (MERN Stack). Built with Next.js, Tailwind CSS, and dark/light theme support.
+Portfolio website of **Rustom Yadav** — Software Engineer & System Architecture Enthusiast, Building scalable web ecosystems with Generative & Agentic AI Systems. Built with Next.js, Tailwind CSS, and dark/light theme support.
 
 ---
 
@@ -46,4 +46,4 @@ Licensed under the [MIT License](LICENSE). See [LICENSE](LICENSE) for details.
 
 ---
 
-© [Rustom](https://github.com/Rustom-yadav)
+© [Rustom Yadav](https://github.com/Rustom-yadav)
