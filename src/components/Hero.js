@@ -45,11 +45,14 @@ export default function Hero() {
         </h1>
         <p className="mb-6 text-xl font-bold text-slate-700 dark:text-[#e4e4e7]">
           Software Engineer{" "}
-          <span className="text-slate-400 dark:text-[#a1a1aa]">|</span> Full-Stack & AI
+          <span className="text-slate-400 dark:text-[#a1a1aa]">|</span>{" "}
+          Full-Stack & AI
         </p>
         <div className="mx-auto mb-8 max-w-2xl space-y-4 text-base leading-relaxed text-slate-600 dark:text-[#a1a1aa]">
           <p>
-            I am a versatile Software Engineer who builds scalable, high-performance web applications and intelligent systems. I specialize in{" "}
+            I am a versatile Software Engineer who builds scalable,
+            high-performance web applications and intelligent systems. I
+            specialize in{" "}
             <span className="font-semibold text-[#6366f1] dark:text-[#818cf8]">
               MERN, Next.js, and FastAPI
             </span>{" "}
@@ -62,9 +65,11 @@ export default function Hero() {
           <p>
             I pride myself on being a meticulous engineer—focusing heavily on{" "}
             <span className="font-medium text-slate-800 dark:text-slate-200">
-              System Design, Clean Code, Performance Optimization, and minimizing Database calls
+              System Design, Clean Code, Performance Optimization, and
+              minimizing Database calls
             </span>
-            . I ensure that the architecture is robust and production-ready from day one.
+            . I ensure that the architecture is robust and production-ready from
+            day one.
           </p>
           <p>
             Beyond coding, I bring a strong DevOps mindset, leveraging{" "}
@@ -75,7 +80,8 @@ export default function Hero() {
           </p>
         </div>
         <p className="mb-8 text-sm font-medium text-slate-500 dark:text-[#a1a1aa]">
-          Explore my projects and see how I build robust systems from the ground up.
+          Explore my projects and see how I build robust systems from the ground
+          up.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Link
@@ -85,11 +91,11 @@ export default function Hero() {
             View Projects
           </Link>
           <a
-            href="/Rustom_Resume_Final_V4.pdf"
-            download
+            href="https://www.linkedin.com/in/rustom-yadav-b31a7a300/"
+            target="_blank"
             className="inline-flex items-center gap-2 rounded-lg border-2 border-transparent bg-gradient-to-r from-blue-600 to-cyan-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_0_20px_rgba(37,99,235,0.45)] transition hover:-translate-y-0.5 hover:shadow-[0_0_28px_rgba(37,99,235,0.55)] dark:from-blue-500 dark:to-cyan-400 dark:shadow-[0_0_20px_rgba(59,130,246,0.4)] dark:hover:shadow-[0_0_28px_rgba(34,211,238,0.5)]"
           >
-            Download Resume
+            View Linkedin
           </a>
         </div>
       </div>
