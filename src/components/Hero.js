@@ -19,7 +19,7 @@ export default function Hero() {
               {!imgError ? (
                 <Image
                   src="/img.vijay.jpg"
-                  alt="Vijay Yadav (Rustom)"
+                  alt="rustom profile picture "
                   width={144}
                   height={144}
                   className="h-full w-full object-cover"
@@ -41,30 +41,41 @@ export default function Hero() {
           id="hero-heading"
           className="mb-3 bg-gradient-to-r from-[#6366f1] to-[#22d3ee] bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl md:text-6xl"
         >
-          Vijay Yadav (Rustom)
+          Hi, I&apos;m Rustom Yadav
         </h1>
-        <p className="mb-6 text-lg font-semibold text-slate-700 dark:text-[#e4e4e7]">
-          Full Stack Developer{" "}
-          <span className="text-slate-400 dark:text-[#a1a1aa]">|</span> MERN
-          Stack
+        <p className="mb-6 text-xl font-bold text-slate-700 dark:text-[#e4e4e7]">
+          Software Engineer{" "}
+          <span className="text-slate-400 dark:text-[#a1a1aa]">|</span> Full-Stack & AI
         </p>
-        <div className="mx-auto mb-8 max-w-xl space-y-4 text-base leading-relaxed text-slate-600 dark:text-[#a1a1aa]">
+        <div className="mx-auto mb-8 max-w-2xl space-y-4 text-base leading-relaxed text-slate-600 dark:text-[#a1a1aa]">
           <p>
-            I turn ideas into modern web applications using React, Next.js,
-            Node.js, Express, and MongoDB. With a strong foundation in
-            JavaScript and responsive design and Backend development, I enjoy
-            building products that are clean, scalable, and user-focused.
+            I am a versatile Software Engineer who builds scalable, high-performance web applications and intelligent systems. I specialize in{" "}
+            <span className="font-semibold text-[#6366f1] dark:text-[#818cf8]">
+              MERN, Next.js, and FastAPI
+            </span>{" "}
+            stacks, seamlessly integrating modern{" "}
+            <span className="font-semibold text-[#22d3ee] dark:text-[#67e8f9]">
+              Agentic and Generative AI
+            </span>{" "}
+            capabilities into products.
           </p>
           <p>
-            Certified by{" "}
-            <span className="font-semibold text-[#6366f1]">
-              FreeCodeCamp, Udemy
+            I pride myself on being a meticulous engineer—focusing heavily on{" "}
+            <span className="font-medium text-slate-800 dark:text-slate-200">
+              System Design, Clean Code, Performance Optimization, and minimizing Database calls
             </span>
-            , and always learning, building, and improving.
+            . I ensure that the architecture is robust and production-ready from day one.
+          </p>
+          <p>
+            Beyond coding, I bring a strong DevOps mindset, leveraging{" "}
+            <span className="font-medium text-slate-800 dark:text-slate-200">
+              Docker and GitHub Actions
+            </span>{" "}
+            to build automated, seamless CI/CD pipelines.
           </p>
         </div>
-        <p className="mb-8 text-sm text-slate-500 dark:text-[#a1a1aa]">
-          Explore my projects and see what I&apos;ve been building.
+        <p className="mb-8 text-sm font-medium text-slate-500 dark:text-[#a1a1aa]">
+          Explore my projects and see how I build robust systems from the ground up.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Link

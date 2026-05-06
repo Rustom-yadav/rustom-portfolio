@@ -51,7 +51,7 @@ export default function Footer() {
           ))}
         </div>
         <p className="text-sm text-slate-400 dark:text-[#60a5fa]/50">
-          © {currentYear} Rustom. All rights reserved.
+          © {currentYear} Rustom Yadav. All rights reserved.
         </p>
       </div>
     </footer>

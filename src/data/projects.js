@@ -37,12 +37,12 @@ export const projects = [
   },
   {
     id: 1,
-    title: "My Next.js portfolio",
+    title: "My Portfolio",
     description: "My portfolio website built with Next.js and Tailwind CSS",
     tech: ["Next.js", "Tailwind CSS"],
     github: "https://github.com/Rustom-yadav/rustom-portfolio",
-    demo: "#",
-    image: "/projects-screenshots/PortfolioNext.js.png",
+    demo: "https://rustom-portfolio.vercel.app/",
+    image: "/projects-screenshots/rustom_yadav_portfolio_screenshot.png",
     imageAlt: "My Next.js portfolio",
   },
   {

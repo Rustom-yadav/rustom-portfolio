@@ -8,17 +8,17 @@ export default function About() {
         <p className="mb-8 text-sm text-slate-500 dark:text-[#a1a1aa]">Get to know the person behind the code</p>
         <div className="space-y-5 text-base leading-[1.8] text-slate-600 dark:text-[#a1a1aa]">
           <p>
-            I&apos;m <strong className="text-slate-900 dark:text-[#e4e4e7]">Vijay Yadav</strong>, also known as{" "}
-            <strong className="text-[#6366f1] dark:text-[#22d3ee]">Rustom</strong>. I work as a full stack developer
-            specializing in the MERN stack (MongoDB, Express, React, Node.js).
+            I&apos;m <strong className="text-slate-900 dark:text-[#e4e4e7]">Rustom</strong>, my legal name is {" "}
+            <strong className="text-[#6366f1] dark:text-[#22d3ee]">Vijay Yadav</strong>. My approach to software development is simple: build things that last, and make sure they run incredibly fast. I treat coding not just as a job, but as an engineering craft where every architectural decision matters.
           </p>
           <p>
-            I enjoy building responsive, user-friendly web applications from frontend to backend.
-            I focus on clean code, REST APIs, and modern tooling like Next.js and Tailwind CSS.
+            I enjoy tackling the entire lifecycle of a product. On the backend, I design resilient systems using <strong className="font-medium text-slate-800 dark:text-[#e4e4e7]">Node.js, Express, and FastAPI</strong>, always keeping a strict eye on <strong className="font-medium text-slate-800 dark:text-[#e4e4e7]">optimizing database queries and reducing server load</strong>. On the frontend, I create dynamic, responsive experiences with <strong className="font-medium text-slate-800 dark:text-[#e4e4e7]">React and Next.js</strong>.
           </p>
           <p>
-            When I&apos;m not coding, I like to stay updated with new technologies and use AI tools
-            to improve my workflow. Feel free to reach out for collaboration or opportunities.
+            Beyond traditional web development, I am actively exploring the cutting-edge capabilities of <strong className="font-medium text-slate-800 dark:text-[#e4e4e7]">Generative AI and Agentic workflows</strong>. I love figuring out how to make AI do the heavy lifting within applications, turning complex user intents into automated, intelligent actions.
+          </p>
+          <p>
+            I&apos;m also a huge advocate for developer operations. From containerizing apps with <strong className="font-medium text-slate-800 dark:text-[#e4e4e7]">Docker</strong> to configuring reliable <strong className="font-medium text-slate-800 dark:text-[#e4e4e7]">GitHub Actions</strong>, I prefer to let CI/CD pipelines handle the deployment so I can focus purely on writing <strong className="font-medium text-slate-800 dark:text-[#e4e4e7]">clean, scalable, and maintainable code</strong>. If there&apos;s a way to make a system more efficient, I&apos;m already working on it.
           </p>
         </div>
         <div className="mt-10 flex flex-wrap gap-4">

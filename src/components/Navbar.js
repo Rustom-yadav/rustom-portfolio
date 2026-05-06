@@ -34,7 +34,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur dark:border-[#27272a] dark:bg-[#0f0f14]/95" aria-label="Main navigation">
       <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4">
         <Link href="/" className="shrink-0 text-lg font-bold text-slate-900 transition hover:text-[#6366f1] dark:text-[#e4e4e7] sm:text-xl" onClick={() => setMenuOpen(false)}>
-          Rustom
+          Rustom Yadav
         </Link>
         <div className="flex shrink-0 items-center gap-3 lg:gap-6">
           <ul className="hidden items-center gap-6 lg:flex" role="list">
