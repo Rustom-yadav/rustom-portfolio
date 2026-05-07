@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const channels = [
   {
-    href: "https://www.linkedin.com/in/rustom-yadav-b31a7a300/",
+    href: "https://www.linkedin.com/in/rustom-yadav/",
     label: "LinkedIn",
     desc: "Connect with me professionally.",
     icon: (
