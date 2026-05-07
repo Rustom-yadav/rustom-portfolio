@@ -66,6 +66,9 @@ export const metadata = {
       "Portfolio of Rustom Yadav, Software Engineer and system architecture enthusiast, Building scalable web ecosystems with Generative & Agentic AI Systems",
     images: ["/img.vijay.jpg"],
   },
+  verification: {
+    google: "05nsT381gB_XfIpgl1CwfoTdRSgjVwLPVoQMuUBYeu0",
+  },
 };
 
 export default function RootLayout({ children }) {
