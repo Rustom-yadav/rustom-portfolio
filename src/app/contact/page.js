@@ -32,7 +32,7 @@ const channels = [
     ),
   },
   {
-    href: "https://github.com/Rustom-yadav",
+    href: "https://github.com/rustom-yadav",
     label: "GitHub",
     desc: "Browse my repositories and projects.",
     icon: (

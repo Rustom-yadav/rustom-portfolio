@@ -18,7 +18,7 @@ const socialLinks = [
     ),
   },
   {
-    href: "https://github.com/Rustom-yadav",
+    href: "https://github.com/rustom-yadav",
     label: "GitHub",
     icon: (
       <svg aria-hidden className="size-4" fill="currentColor" viewBox="0 0 24 24">
