@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://rustom-portfolio.vercel.app"),
   title: "Rustom Yadav| Software Engineer",
   description:
     "Portfolio of Rustom Yadav, Software Engineer and system architecture enthusiast, Building scalable web ecosystems with Generative & Agentic AI Systems",
