@@ -18,7 +18,7 @@ export default function Hero() {
             <div className="ring-4 ring-[#6366f1]/20 ring-offset-4 ring-offset-[#eef2ff] dark:ring-[#22d3ee]/30 dark:ring-offset-[#0f0f14] size-28 overflow-hidden rounded-full sm:size-36">
               {!imgError ? (
                 <Image
-                  src="/img.vijay.jpg"
+                  src="/rustom-yadav.jpg"
                   alt="rustom profile picture "
                   width={144}
                   height={144}
