@@ -8,8 +8,7 @@ export default function About() {
         <p className="mb-8 text-sm text-slate-500 dark:text-[#a1a1aa]">Get to know the person behind the code</p>
         <div className="space-y-5 text-base leading-[1.8] text-slate-600 dark:text-[#a1a1aa]">
           <p>
-            I&apos;m <strong className="text-slate-900 dark:text-[#e4e4e7]">Rustom</strong>, my legal name is {" "}
-            <strong className="text-[#6366f1] dark:text-[#22d3ee]">Vijay Yadav</strong>. My approach to software development is simple: build things that last, and make sure they run incredibly fast. I treat coding not just as a job, but as an engineering craft where every architectural decision matters.
+            I&apos;m <strong className="text-slate-900 dark:text-[#e4e4e7]">Rustom</strong>, My approach to software development is simple: build things that last, and make sure they run incredibly fast. I treat coding not just as a job, but as an engineering craft where every architectural decision matters.
           </p>
           <p>
             I enjoy tackling the entire lifecycle of a product. On the backend, I design resilient systems using <strong className="font-medium text-slate-800 dark:text-[#e4e4e7]">Node.js, Express, and FastAPI</strong>, always keeping a strict eye on <strong className="font-medium text-slate-800 dark:text-[#e4e4e7]">optimizing database queries and reducing server load</strong>. On the frontend, I create dynamic, responsive experiences with <strong className="font-medium text-slate-800 dark:text-[#e4e4e7]">React and Next.js</strong>.

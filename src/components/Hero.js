@@ -15,20 +15,20 @@ export default function Hero() {
       <div className="relative mx-auto max-w-2xl">
         <div className="mb-8 flex justify-center">
           <div className="relative">
-            <div className="ring-4 ring-[#6366f1]/20 ring-offset-4 ring-offset-[#eef2ff] dark:ring-[#22d3ee]/30 dark:ring-offset-[#0f0f14] size-28 overflow-hidden rounded-full sm:size-36">
+            <div className="ring-4 ring-[#6366f1]/20 ring-offset-4 ring-offset-[#eef2ff] dark:ring-[#22d3ee]/30 dark:ring-offset-[#0f0f14] size-36 overflow-hidden rounded-full sm:size-48">
               {!imgError ? (
                 <Image
-                  src="/rustom-yadav.jpg"
-                  alt="rustom profile picture "
-                  width={144}
-                  height={144}
+                  src="/rustom-yadav.png"
+                  alt="rustom's profile picture "
+                  width={192}
+                  height={192}
                   className="h-full w-full object-cover"
                   onError={() => setImgError(true)}
                   priority
                 />
               ) : (
                 <span
-                  className="flex h-full w-full items-center justify-center bg-gradient-to-br from-[#6366f1] to-[#22d3ee] text-3xl font-bold text-white sm:text-4xl"
+                  className="flex h-full w-full items-center justify-center bg-gradient-to-br from-[#6366f1] to-[#22d3ee] text-4xl font-bold text-white sm:text-5xl"
                   aria-hidden
                 >
                   VY

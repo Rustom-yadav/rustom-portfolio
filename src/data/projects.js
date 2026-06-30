@@ -3,7 +3,7 @@ export const projects = [
     id: 6,
     title: "Mentovara",
     description:
-      "A modern, full-stack Learning Management System (LMS) built with Next.js and Node.js. Features secure authentication, smooth video streaming, and a highly optimized dark-mode UI designed for maximum student focus.",
+      "Mentovara is a feature-rich EdTech platform designed to make online learning seamless and engaging. Instructors can create and publish courses with video content, while students enjoy a distraction-free, dark-mode interface built for deep focus. The platform includes secure user authentication, email verification, and integrated payment support — making it a complete, production-ready learning ecosystem.",
     tech: [
       "Next.js",
       "Node.js",
@@ -26,9 +26,9 @@ export const projects = [
   },
   {
     id: 3,
-    title: "My Video Plateform Backend project",
+    title: "Video Streaming Plateform Backend API Project",
     description:
-      "Video platform backend project built with Node.js, Express, MongoDB, REST APIs, JWT, Cloudinary, Multer, BCrypt",
+      "A production-grade backend API for a YouTube-like video streaming platform. It supports end-to-end features including user authentication, video publishing, likes, comments, subscriptions, and watch history — all exposed through clean, well-structured REST endpoints. Designed with scalability and real-world deployment in mind, this project reflects industry-level backend engineering practices.",
     tech: ["Node.js", "Express", "MongoDB", "REST APIs", "Cloudinary"],
     github: "https://github.com/rustom-yadav/rustom-backend-project",
     demo: "https://rustom-backend-project.onrender.com/",
