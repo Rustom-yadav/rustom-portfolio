@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @variant dark (&:is(.dark *));
 
@@ -21,7 +21,9 @@ body {
   background: #f8fafc;
   color: #1e293b;
   overflow-x: hidden;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
   width: 100%;
   max-width: 100vw;
   min-width: 0;

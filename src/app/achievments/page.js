@@ -1,10 +1,10 @@
-import Link from "next/link";
-import { certifications, contributions } from "@/data/achievements";
+import Link from 'next/link';
+import { certifications, contributions } from '@/data/achievements';
 
 export const metadata = {
-  title: "Achievements | Rustom Yadav",
+  title: 'Achievements | Rustom Yadav',
   description:
-    "Certifications, open source contributions, and milestones achieved by Rustom Yadav as a software engineer.",
+    'Certifications, open source contributions, and milestones achieved by Rustom Yadav as a software engineer.',
 };
 
 export default function Achievements() {
