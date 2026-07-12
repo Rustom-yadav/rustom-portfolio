@@ -1,96 +1,96 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import ThemeProvider from "@/components/ThemeProvider";
+import { Geist, Geist_Mono } from 'next/font/google';
+import './globals.css';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import ThemeProvider from '@/components/ThemeProvider';
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
 });
 
 export const metadata = {
-  metadataBase: new URL("https://rustom-portfolio.vercel.app"),
-  title: "Rustom Yadav | Software Engineer",
+  metadataBase: new URL('https://rustom-portfolio.vercel.app'),
+  title: 'Rustom Yadav | Software Engineer',
   description:
-    "Portfolio of Rustom Yadav, Software Engineer and system architecture enthusiast, Building scalable web ecosystems with Generative & Agentic AI Systems",
+    'Portfolio of Rustom Yadav, Software Engineer and system architecture enthusiast, Building scalable web ecosystems with Generative & Agentic AI Systems',
   keywords: [
-    "Software Engineer",
-    "Rustom Yadav",
-    "System Design",
-    "Generative AI",
-    "Agentic AI",
-    "MERN Stack",
-    "Next.js",
-    "FastAPI",
-    "Docker",
-    "GitHub Actions",
-    "Full Stack Developer",
-    "Web Developer",
-    "Machine Learning Engineer",
-    "Developer",
-    "Rustom",
+    'Software Engineer',
+    'Rustom Yadav',
+    'System Design',
+    'Generative AI',
+    'Agentic AI',
+    'MERN Stack',
+    'Next.js',
+    'FastAPI',
+    'Docker',
+    'GitHub Actions',
+    'Full Stack Developer',
+    'Web Developer',
+    'Machine Learning Engineer',
+    'Developer',
+    'Rustom',
   ],
-  authors: [{ name: "Rustom Yadav" }],
-  creator: "Rustom Yadav",
-  publisher: "Rustom Yadav",
+  authors: [{ name: 'Rustom Yadav' }],
+  creator: 'Rustom Yadav',
+  publisher: 'Rustom Yadav',
   robots: {
     index: true,
     follow: true,
   },
-  
+
   openGraph: {
-    title: "Rustom Yadav | Software Engineer",
+    title: 'Rustom Yadav | Software Engineer',
     description:
-      "Software Engineer building Softwares and systems with AI & JavaScript, TypeScript and Python.",
-    type: "website",
-    locale: "en_IN",
-    url: "https://rustom-portfolio.vercel.app/",
-    siteName: "Rustom Yadav",
+      'Software Engineer building Softwares and systems with AI & JavaScript, TypeScript and Python.',
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://rustom-portfolio.vercel.app/',
+    siteName: 'Rustom Yadav',
     images: [
       {
-        url: "/rustom-yadav.jpg",
+        url: '/rustom-yadav.jpg',
         width: 1200,
         height: 630,
-        alt: "Rustom Yadav",
+        alt: 'Rustom Yadav',
       },
     ],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Rustom Yadav | Software Engineer",
+    card: 'summary_large_image',
+    title: 'Rustom Yadav | Software Engineer',
     description:
-      "Portfolio of Rustom Yadav, Software Engineer and system architecture enthusiast, Building scalable web ecosystems with Generative & Agentic AI Systems",
-    images: ["/rustom-yadav.jpg"],
+      'Portfolio of Rustom Yadav, Software Engineer and system architecture enthusiast, Building scalable web ecosystems with Generative & Agentic AI Systems',
+    images: ['/rustom-yadav.jpg'],
   },
   verification: {
-    google: "05nsT381gB_XfIpgl1CwfoTdRSgjVwLPVoQMuUBYeu0",
+    google: '05nsT381gB_XfIpgl1CwfoTdRSgjVwLPVoQMuUBYeu0',
   },
 };
 
 export default function RootLayout({ children }) {
   const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Rustom Yadav",
-    url: "https://rustom-portfolio.vercel.app",
-    image: "https://rustom-portfolio.vercel.app/rustom-yadav.jpg",
-    jobTitle: "Software Engineer",
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Rustom Yadav',
+    url: 'https://rustom-portfolio.vercel.app',
+    image: 'https://rustom-portfolio.vercel.app/rustom-yadav.jpg',
+    jobTitle: 'Software Engineer',
     description:
-      "Software Engineer building Softwares and systems with AI & JavaScript, TypeScript and Python.",
+      'Software Engineer building Softwares and systems with AI & JavaScript, TypeScript and Python.',
     address: {
-      "@type": "PostalAddress",
-      addressLocality: "New Delhi",
-      addressCountry: "IN",
+      '@type': 'PostalAddress',
+      addressLocality: 'New Delhi',
+      addressCountry: 'IN',
     },
     sameAs: [
-      "https://github.com/rustom-yadav",
-      "https://linkedin.com/in/rustom-yadav",
+      'https://github.com/rustom-yadav',
+      'https://linkedin.com/in/rustom-yadav',
     ],
   };
 

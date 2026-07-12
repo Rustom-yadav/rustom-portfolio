@@ -1,7 +1,7 @@
 # 🚀 MY NEXT.JS PORTFOLIO WEBSITE
 
-> **Live:** [🌐 View Live](https://rustom-portfolio.vercel.app) · 
-**Repo:** [📂 Source Code](https://github.com/rustom-yadav/rustom-portfolio)
+> **Live:** [🌐 View Live](https://rustom-portfolio.vercel.app) ·
+> **Repo:** [📂 Source Code](https://github.com/rustom-yadav/rustom-portfolio)
 
 Portfolio website of **Rustom Yadav** — Software Engineer & System Architecture Enthusiast, Building scalable web ecosystems with Generative & Agentic AI Systems. Built with Next.js, Tailwind CSS, and dark/light theme support.
 
